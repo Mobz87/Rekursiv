@@ -11,35 +11,38 @@ namespace Terning
         static void Main(string[] args)
         {
 
+            var Spil = new Yatzy();
 
-            //Opretter spillet
-            var kast = new List<Terning>();
 
-            for (int i = 0; i < 6; i++)
+            while (true)
             {
-                kast.Add(new Terning());
+                Spil.ClearDisplay();
+                Spil.KastTerning();
+                Spil.Skriv();
+                for (int i = 0; i < 3; i++)
+                {
+                    if (Spil.CheckMatch())
+
+                    {
+                        i = 4;
+                    }
+
+                    if (i < 2)
+                    {
+                        Spil.Behold();
+                        Spil.Skriv();
+
+                    }
+                    
+                }
+
+                
             }
 
 
-            
-            
-            
-            //Kaster 6 terninger
-            foreach (var item in kast)
-            {
-                item.Ryst();
-                item.Skriv();
-            }
 
-
-            
 
             Console.WriteLine("");
-
-            foreach (var item in kast)
-            {
-                item.Skriv();
-            }
 
 
             //Check for mulige kombinationer og giv brugeren et valg om at holde bestemte terninger

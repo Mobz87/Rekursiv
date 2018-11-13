@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackHEAP", "ConsoleApp1\St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Terning", "Terning\Terning.csproj", "{C1E3A996-9624-4111-AD74-67324C04BA15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "undervisning", "undervisning\undervisning.csproj", "{9C91ADD7-16BB-4C52-A27A-D72B85E35690}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C1E3A996-9624-4111-AD74-67324C04BA15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1E3A996-9624-4111-AD74-67324C04BA15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1E3A996-9624-4111-AD74-67324C04BA15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C91ADD7-16BB-4C52-A27A-D72B85E35690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C91ADD7-16BB-4C52-A27A-D72B85E35690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C91ADD7-16BB-4C52-A27A-D72B85E35690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C91ADD7-16BB-4C52-A27A-D72B85E35690}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
